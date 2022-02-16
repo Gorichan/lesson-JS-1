@@ -1,15 +1,15 @@
 "use strict";
 
 let name = "John";
-let admin = name;
+const admin = name;
 
 alert(admin);
 
-let guestUser = prompt("What is your guest name?");
+const guestUser = prompt("What is your guest name?");
 
-let yourPlanet = prompt(
+const yourPlanet = prompt(
   "What is the name of the planet where you live?" + guestUser);
 console.log(guestUser + "! I know what you live on" + yourPlanet);
 
-let a = "10" + 10;
+const a = "10" + 10;
 console.log(a + " I know why)");
